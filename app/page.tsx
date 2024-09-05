@@ -31,7 +31,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col items-center gap-4 px-4 max-w-xs mx-auto ">
-      <Image src={Logo} alt="Logo" className="mt-32 sm:mt-16 w-full" />
+      <Image src={Logo} alt="Logo" className="sm:mt-16 w-full" />
       <p className="text-center text-stone-600 ">
         Let’s see how good you are at understanding women
       </p>
