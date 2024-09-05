@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import unlock_3 from "/public/assets/images/unlock_3.svg";
 
-function unlock() {
+function Unlock() {
 
   return (
     <div className="flex flex-col items-center max-w-xs mx-auto mt-8">
@@ -12,7 +12,7 @@ function unlock() {
       <Image src={unlock_3} alt="unlocked"/>
       <p className="text-2xl text-[#5F5B50] pt-4">Level 3</p>
       <p className="font-thin text-[#9E9E9E] text-center">
-        understanding women's emotions to infinity and beyond!
+        understanding women&apos;s emotions to infinity and beyond!
       </p>
       <Link
         href={"/stage_3"}
@@ -24,4 +24,4 @@ function unlock() {
   );
 }
 
-export default unlock;
+export default Unlock;

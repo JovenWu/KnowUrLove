@@ -3,7 +3,7 @@ import Image from "next/image";
 import unlock_2 from "/public/assets/images/unlock_2.svg";
 import Link from "next/link";
 
-function unlock() {
+function Unlock() {
 
   return (
     <div className="flex flex-col items-center max-w-xs mx-auto mt-8">
@@ -17,4 +17,4 @@ function unlock() {
   );
 }
 
-export default unlock;
+export default Unlock;

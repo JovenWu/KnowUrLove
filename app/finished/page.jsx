@@ -20,9 +20,6 @@ function Finished() {
       router.push("/");
     }
   }, [username, router]);
-  if (!username) {
-    return null;
-  }
 
   useEffect(() => {
     setIsClient(true);

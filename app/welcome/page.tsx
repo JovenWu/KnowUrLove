@@ -16,9 +16,6 @@ function Welcome() {
       router.push("/");
     }
   }, [username, router]);
-  if (!username) {
-    return null;
-  }
 
   return (
     <div className="flex flex-col items-center gap-2 px-4 max-w-xs mx-auto mt-12">

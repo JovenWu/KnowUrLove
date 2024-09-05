@@ -39,9 +39,7 @@ const Stage3 = () => {
       router.push("/");
     }
   }, [username, router]);
-  if (!username) {
-    return null;
-  }
+  
   useEffect(() => {
     // Fetch and set the questions from the imported JSON file
     setQuestions(quizData.questions2);

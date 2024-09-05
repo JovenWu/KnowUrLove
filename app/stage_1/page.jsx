@@ -38,14 +38,13 @@ const Stage1 = () => {
     // Set the initial options based on the first question
     setOptions(quizData.questions[0].options);
   }, []);
+
   useEffect(() => {
     if (!username) {
       router.push("/");
     }
   }, [username, router]);
-  if (!username) {
-    return null;
-  }
+
   useEffect(() => {
     if (currentQuestionIndex === 1) {
       setProggres(one02);
