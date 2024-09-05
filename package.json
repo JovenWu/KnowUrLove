@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "primsa generate && prisma migrate deploy"
+    "postinstall": "prisma generate && prisma migrate deploy"
   },
   "dependencies": {
     "@next/font": "^14.2.6",
