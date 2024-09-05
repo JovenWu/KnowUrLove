@@ -1,0 +1,184 @@
+{
+    "questions": [
+     {
+        "id": 1,
+        "content": "kok bisa mereka cancel mendadak pas orang udah ready gini, at least bilang daritadi kalau ga jadi",
+        "options": [
+            {"id": "opt1", "content": "yang sabar yaa, udh jngan marah marah lagi ntr cntiknya hilang lo", "oder": 0 },
+            {"id": "opt2", "content": "wah parah banget si, kok gitu ya mereka", "oder": 1 },
+            {"id": "opt3", "content": "ayok sama aku aja, siap siap ya 5 menit lagi sampai", "oder": 2 },
+            {"id": "opt4", "content": "hapus aja makeupnya mandi lalu tidur, let it flow", "oder": 3 }
+        ],
+        "correctAnswerId":"opt3"
+     },
+     {
+        "id": 2,
+        "content": "kamu lagi sibuk ngga? temenin aku grocery shopping yok, kyaknya ada bnyk barang deh yg mau aku beli",
+        "options": [
+            {"id": "opt5", "content": "bolehh, bentar lgi aku jemput ya habis itu baru kita pergi bareng, okay?", "oder": 0 },
+            {"id": "opt6", "content": "lagi mager bgt ni, besok aja la ya", "oder": 1 },
+            {"id": "opt7", "content": "boleh sii, kmu duluan aja ntar aku nyusul", "oder": 2 },
+            {"id": "opt8", "content": "yahh aku mau kluar sama temen, next time kita pergi bareng deh janji", "oder": 3 }
+        ],
+        "correctAnswerId":"opt5"
+     },
+     {
+        "id": 3,
+        "content": "DEMI APAPUN AKU SENENG BGT HARI INI soalnya nilai TOEIC aku tinggi dong, ga expect bakal setinggi itu nilainya",
+        "options": [
+            {"id": "opt9", "content": "wah sama dong, aku jg ga expect pdhl ak gada persiapan smsek haha, anw nilai kmu brapa?", "oder": 0 },
+            {"id": "opt10", "content": "ohh i see, mntap deh kalau gitu", "oder": 1 },
+            {"id": "opt11", "content": "congratss, hebat banget. Hrus celebration si ini, gmana klau prgi mkan ke tmpt kesukaan kmu?", "oder": 2 },
+            {"id": "opt12", "content": "wih congrats yaa, temen aku juga brusan blg nilai TOEICnya tinggi pdhal bodoh bgt dia haha", "oder": 3 }
+        ],
+        "correctAnswerId":"opt11"
+     },      
+     {
+        "id": 4,
+        "content": "brusan temen aku traktir ak makan sushi dong rn ak super duper happy, kayak energi ak ke reboost gtuu hbis makan sushi",
+        "options": [
+            {"id": "opt13", "content": "ohya pas banget dong, kan bru kmarin kmu bilang pengen makan sushi", "oder": 0 },
+            {"id": "opt14", "content": "yahh pdhl ak bawain kmu sushi krna kmu kmarin blg kepengen", "oder": 1 },
+            {"id": "opt15", "content": "ohh hahaha bagusla, anw besok kelas kita ngapain ya?", "oder": 2 },
+            {"id": "opt16", "content": "ajak ak kenalan sma temenmu dong biar aku ditraktir jugaa", "oder": 3 }
+        ],
+        "correctAnswerId":"opt14"
+     },      
+     {
+        "id": 5,
+        "content": "huaa gmana dong ini kucing aku satu lg hilang kalau ntar ga ketemu gmanaa",
+        "options": [
+            {"id": "opt17", "content": "kita cari yaa, udh tenang yaa percaya sama ak psti ketemu okay ", "oder": 0 },
+            {"id": "opt18", "content": "hah kok bisa, gmana ceritanya bisa hilang?", "oder": 1 },
+            {"id": "opt19", "content": "udah gapapaa jgn sedih yaa, ntar psti balik kok, biasa kan dia tau cara pulang ", "oder": 2 },
+            {"id": "opt20", "content": "yang kuat yaa, kucing mu psti bakal pulang dengan selamat", "oder": 3 }
+        ],
+        "correctAnswerId":"opt17"
+     }
+    ],
+    "questions1": [
+     {
+        "id": 1,
+        "content": "Pasanganmu tidak sengaja menjatuhkan suatu barang ke bawah meja. ",
+        "content1":"Nah, pada saat ini, upaya apa yang hrus anda lakukan?",
+        "options": [
+            {"id": "opt1", "content": "melindungi kepalanya agar tidak terbentur sudut meja", "oder": 0 },
+            {"id": "opt2", "content": "membantu mengambilkannya tnpa disuruh", "oder": 1 },
+            {"id": "opt3", "content": "pura pura tidak sadar agar dia tidak terlihat ceroboh", "oder": 2 },
+            {"id": "opt4", "content": "membiarkannya mengambil sendiri agar mandiri", "oder": 3 }
+        ],
+        "correctAnswerId":"opt2"
+     },
+     {
+        "id": 2,
+        "content": "Dalam perjalanan pulang, pasanganmu tertidur lelap dibahumu, tetapi perjalanan tersebut mengharuskan kalian untuk melewati jalanan yang tidak rata.",
+        "content1":"Nah, pada saat ini, upaya apa yang hrus anda lakukan?",
+        "options": [
+            {"id": "opt5", "content": "membangunkan pasangan anda demi keselamatan bersama saat menyetir", "oder": 0 },
+            {"id": "opt6", "content": "memindahkan kepala pasangan anda ke headrest dan fokus menyetir", "oder": 1 },
+            {"id": "opt7", "content": "menahan kepala pasangan anda agar tidak terbangun krna guncangan dan menyetir dengan pelan", "oder": 2 },
+            {"id": "opt8", "content": "menepih ke pinggir dan menunggu pasangan anda bangun baru melanjutkan perjalanan ", "oder": 3 }
+        ],
+        "correctAnswerId":"opt7"
+     },
+     {
+        "id": 3,
+        "content": "Pasanganmu tiba tiba tidak selera makan dengan makanan yang ia pesan",
+        "content1":"Nah, pada saat ini, upaya apa yang hrus anda lakukan?",
+        "options": [
+            {"id": "opt9", "content": "mengingatkannya untuk tidak membuang makanan dan menyuruhnya untuk tetep makan", "oder": 0 },
+            {"id": "opt10", "content": "memarahinya dan menyuruhnya untuk menghilangkan kebiasaan buruknya", "oder": 1 },
+            {"id": "opt11", "content": "mengajaknya untuk pindah ke tempat makan yang ia mau", "oder": 2 },
+            {"id": "opt12", "content": "menanyakan kondisinya dan coba untuk menyuapi makananya", "oder": 3 }
+        ],
+        "correctAnswerId":"opt12"
+     },
+     {
+        "id": 4,
+        "content": "Pasanganmu sedang menelpon dan tiba tiba dia menatapmu dengan dalam",
+        "content1":"Nah, pada saat ini apa yang shrusnya anda lakukan?",
+        "options": [
+            {"id": "opt13", "content": "membuang muka dan pura pura mengerjakan sesuatu", "oder": 0 },
+            {"id": "opt14", "content": "merasa kebingungan dan menanyakan alasan dia menatapmu", "oder": 1 },
+            {"id": "opt15", "content": "membalas tatapannya dan membuat eye contact dengannya", "oder": 2 },
+            {"id": "opt16", "content": "merasa canggung dan pura pura tertawa untuk menghilangkan kecanggungan", "oder": 3 }
+        ],
+        "correctAnswerId":"opt15"
+     },
+     {
+        "id": 5,
+        "content": "Pasanganmu merasa kaget dengan hasil potongan rambutnya yang baru karena tidak sesuai dengan permintaanya",
+        "content1":"Nah, pada saat ini apa yang shrusnya anda lakukan?",
+        "options": [
+            {"id": "opt17", "content": "memujinya dan meyakinkannya kalau potongan rambutnya yg baru cocok dgnnya", "oder": 0 },
+            {"id": "opt18", "content": "memberi saran untuk memperbaiki potongan rambutnya di salon lain", "oder": 1 },
+            {"id": "opt19", "content": "tidak berbohong kepadanya dan memberitahunya kalau potongan rambutnya tidak cocok", "oder": 2 },
+            {"id": "opt20", "content": "berusaha menghiburnya dngan cara menggodanya", "oder": 3 }
+        ],
+        "correctAnswerId":"opt17"
+     }
+    ],
+
+    "questions2": [
+     {
+        "id": 1,
+        "content":"eh sbb",
+        "content1":"ak lgi pindahann. Demi apapun cape bgt, blum lagi rapiin barang barangnya aduhh cmn bisa senyumin",
+        "options": [
+            {"id": "opt1", "content": "eh kmu lgi pindahan ya? kalo gtu ak bantuin gmana, sharelock ajaa", "order": 0},
+            {"id": "opt2", "content": "ohh gapapa sans, anw perlu ak bantuin ga?", "order": 1},
+            {"id": "opt3", "content": "eh kmu pindah rumah? wah kpan ni acara makan makan di rmh baru", "order": 2},
+            {"id": "opt4", "content": "wkwwk smngat yaa, kalau udh kelar kabarin ", "order": 3}
+        ],
+        "correctAnswerId": "opt1"
+     },
+     {
+        "id": 2,
+        "content":"sedih bgtt bkin macaron dritdi tapi hsilnya fail",
+        "content1":"pdhl kalau jdi kan ak mau jadiin christmas gift kasih ke temen temen aku",
+        "options": [
+            {"id": "opt5", "content": "yaa gapapa nmanya bru blajar, kasi aku ajaa sini mau cobaa", "order": 0},
+            {"id": "opt6", "content": "maunya bikin bareng aja tdi, psti ga fail haha", "order": 1},
+            {"id": "opt7", "content": "gausaa sedih udh gapapa, kita beli aja yaa br ksiin ke kawan kawan mu", "order": 2},
+            {"id": "opt8", "content": "yahh kok bisa fail, jgn sedih dong aku kan jdi ikutan sedih", "order": 3}
+        ],
+        "correctAnswerId": "opt5"
+     },
+     {
+        "id": 3,
+        "content":"ii happyy kalii hasil nailart ak bguss banget, jdi smangat mau natal",
+        "content1":"",
+        "options": [
+            {"id": "opt9", "content": "ohh hahaha nailart dmana tuu", "order": 0},
+            {"id": "opt10", "content": "wii manaa coba liatt", "order": 1},
+            {"id": "opt11", "content": "kmu ga bilang bilang mau nailart, tau gtu kn tdi ak temenin kmu ", "order": 2},
+            {"id": "opt12", "content": "nailart teruss dasar bocah boros ", "order": 3}
+        ],
+        "correctAnswerId": "opt10"
+     },
+     {
+        "id": 4,
+        "content":"lg ngerasa down bgt skrg",
+        "content1":"end up i felt like no one could understand my feelings",
+        "options": [
+            {"id": "opt13", "content": "jgn down dongg, everything will be fine, it just takes time", "order": 0},
+            {"id": "opt14", "content": "apalagi si yg bkin kmu down, prasaan bru tdi blg down lalu skrg down lagi", "order": 1},
+            {"id": "opt15", "content": "lgi ada msalah ya kmu, smngat yaa", "order": 2},
+            {"id": "opt16", "content": "hey i’m here for u, klau ada apa apa crita ke ak ajaa, i'll listen to u", "order": 3}
+        ],
+        "correctAnswerId": "opt16"
+     },
+     {
+        "id": 5,
+        "content":"duhh ini gmanasii susah bgt ",
+        "content1":"kmu paham ngga sama tutorialnya? kok ak gapaham sama sekali ya",
+        "options": [
+            {"id": "opt17", "content": "aduh kok kita samaan gini ya, sama sama ga paham, jngan jngan jodoh lgi kita wkwk", "order": 0},
+            {"id": "opt18", "content": "soal inimah pro bgt ak, ezz bgt ini", "order": 1},
+            {"id": "opt19", "content": "pahamm, sini ak ajarinn pelan pelan perhatiin yaa", "order": 2},
+            {"id": "opt20", "content": "pas bgt ak jga gapaham, gapapa kita blajar barengg", "order": 3}
+        ],
+        "correctAnswerId": "opt19"
+     }
+    ]
+}
