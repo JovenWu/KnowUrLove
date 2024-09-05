@@ -33,6 +33,7 @@ const Stage3 = () => {
   const [showModal, setShowModal] = useState(false);
   const [text, setText] = useState();
   const [color, setColor] = useState();
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     if (!username) {
@@ -123,13 +124,20 @@ const Stage3 = () => {
   };
 
   const nextStage = async () => {
+    if (loading) return; 
+
     if (currentQuestionIndex < questions.length - 1) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
-      setOptions(questions[currentQuestionIndex + 1].options); // Set options for the next question
-      setAnswers([]); // Clear previous answers
+      setOptions(questions[currentQuestionIndex + 1].options); 
+      setAnswers([]); 
     } else {
-      await saveScore(username, score);
-      router.push("/finished");
+      setLoading(true);
+      try {
+        await saveScore(username, score);
+        router.push('/finished');
+      } finally {
+        setLoading(false); 
+      }
     }
   };
 
@@ -227,6 +235,7 @@ const Stage3 = () => {
                 >
                   <div className="relative items-center justify-center p-6 rounded-b ">
                     <button
+                      disabled={loading}
                       className="bg-[#5f5b50] rounded-[37px] text-white uppercase text-sm px-8 py-2 shadow-lg hover:shadow-xl outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                       type="button"
                       onClick={() => {
