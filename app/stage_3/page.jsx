@@ -211,6 +211,7 @@ const Stage3 = () => {
               verifyAnswerAndMoveToNext();
             }}
             type="button"
+            disabled={loading}
             className="text-center mt-[224px] text-white bg-[#403d35] w-[298px] h-[48px] rounded-[12px] shadow-[0px_4px_4px_#00000040]"
           >
             CHECK
@@ -235,7 +236,6 @@ const Stage3 = () => {
                 >
                   <div className="relative items-center justify-center p-6 rounded-b ">
                     <button
-                      disabled={loading}
                       className="bg-[#5f5b50] rounded-[37px] text-white uppercase text-sm px-8 py-2 shadow-lg hover:shadow-xl outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                       type="button"
                       onClick={() => {
