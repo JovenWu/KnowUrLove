@@ -9,7 +9,7 @@ function unlock() {
     <div className="flex flex-col items-center max-w-xs mx-auto mt-8">
       <p className="text-3xl text-[#5F5B50]">Congratulations!</p>
       <p className="text-[#245931] font-light">Level 3 unlocked</p>
-      <Image src={unlock_3} />
+      <Image src={unlock_3} alt="unlocked"/>
       <p className="text-2xl text-[#5F5B50] pt-4">Level 3</p>
       <p className="font-thin text-[#9E9E9E] text-center">
         understanding women's emotions to infinity and beyond!

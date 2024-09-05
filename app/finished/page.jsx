@@ -8,7 +8,8 @@ import unlock_3 from "/public/assets/images/unlock_3.svg";
 import Image from "next/image";
 import { useUsername } from "../context/UsernameContext";
 import { useRouter } from "next/navigation";
-function finished() {
+
+function Finished() {
   const { username, score} = useUsername();
   const [downloadLink, setDownloadLink] = useState('');
   const [isClient, setIsClient] = useState(false);
@@ -37,7 +38,7 @@ function finished() {
       {isClient && <Confetti numberOfPieces={100} gravity={0.05} />}
       <div className="text-center text-stone-600 text-2xl">Well Done!</div>
       <div className="text-stone-600 text-sm">You have cleared all stages.</div>
-      <Image src={unlock_3} />
+      <Image src={unlock_3} alt="Finished" />
       <div className="text-center text-stone-600 text-2xl mt-10">
         Game is complete!
       </div>
@@ -64,4 +65,4 @@ function finished() {
   );
 }
 
-export default finished;
+export default Finished;
